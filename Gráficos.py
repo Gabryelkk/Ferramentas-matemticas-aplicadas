@@ -16,7 +16,7 @@ com cada um desses meses'''
 
 """ x=['Março', 'Abril', 'Maio', 'Junho', 'Julho']
 y=[35000, 29000, 27000, 32000, 33000]
-plt.plot(x,y)
+plt.plot(x,y) 
 plt.show() """
 
 #######################################################
@@ -224,7 +224,7 @@ plt.show() """
 #####################################################################
 
 #Criação dos eixos
-from mpl_toolkits.mplot3d import Axes3D
+from mpl_toolkits.mplot3d import *
 
 """ fig=plt.figure()
 ax=plt.axes(projection='3d')
@@ -234,14 +234,14 @@ plt.show()
 
 #Gráfico de superfície
 
-""" x=np.linspace(-5,5,100)
+x=np.linspace(-5,5,100)
 y=np.linspace(-5,5,100)
 X,Y=np.meshgrid(x,y)
 Z=X**2+Y**2
 fig=plt.figure()
 ax=plt.axes(projection='3d')
 ax.plot_surface(X,Y,Z)
-plt.show() """
+plt.show()
 
 #######################################################################
 
@@ -272,13 +272,13 @@ plt.show() """
 
 #Curvas de nível
 
-x=np.linspace(-5,5,100)
+""" x=np.linspace(-5,5,100)
 y=np.linspace(-5,5,100)
 X,Y=np.meshgrid(x,y)
 Z=X**2+Y**2
 fig=plt.figure()
 ax=plt.axes(projection='3d')
 ax.contour3D(X,Y,Z,15)
-plt.show()
+plt.show() """
 
 
