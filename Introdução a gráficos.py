@@ -29,6 +29,6 @@ sistema de eixos coordenados'''
 x1=np.linspace(0,300,100)
 y1=186*x1
 y2=109*x1+11260
-plt.plot(x1, y1)
-plt.plot(x1, y2)
+plt.plot(x1,y1)
+plt.plot(x1,y2)
 plt.show()
