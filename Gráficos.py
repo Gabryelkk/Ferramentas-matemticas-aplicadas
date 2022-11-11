@@ -272,13 +272,13 @@ plt.show() """
 
 #Curvas de nível
 
-""" x=np.linspace(-5,5,100)
+x=np.linspace(-5,5,100)
 y=np.linspace(-5,5,100)
 X,Y=np.meshgrid(x,y)
 Z=X**2+Y**2
 fig=plt.figure()
 ax=plt.axes(projection='3d')
 ax.contour3D(X,Y,Z,15)
-plt.show() """
+plt.show()
 
 

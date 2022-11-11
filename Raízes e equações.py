@@ -21,5 +21,5 @@ print(r.subs(x,p[0])) """
 
 '''Quais sdo as raizes da funcao y=-x3-5x+9x+11?'''
 
-coeff = [-1, -5, 9, 11]
+coeff = [-1,-5,9,11]
 print(np.roots(coeff))

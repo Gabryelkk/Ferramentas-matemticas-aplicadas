@@ -38,9 +38,9 @@ t horas de trabalho
 Expresse o custo de produção em função do
 tempo'''
 
-""" c,x,t = symbols('c x t')
+c,x,t = symbols('c x t')
 c=x**2+2*x+300
-print(c.subs(x,20*t)) """
+print(c.subs(x,20*t))
 
-############################################################################################
+
 
